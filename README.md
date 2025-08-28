@@ -1,6 +1,6 @@
 # Neopixel 6 Display Controller
 
-![Neopixel 6 Display Controller](departure_board_controller.png)
+![Neopixel 6 Display Controller](neopixel-6-display-controller.png)
 
 A control board for up to 6 NZR (neopixel/WS28*) displays. This control board was designed to be used with a [Circuit Dojo - nRF9160 Feather](https://github.com/circuitdojo/nrf9160-feather), but can be used with any [Adafruit Feather compatible](https://learn.adafruit.com/adafruit-feather/feather-specification) MCU board.
 
