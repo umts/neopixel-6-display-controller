@@ -2,12 +2,12 @@
 
 ![Departure Board Controller](departure_board_controller.png)
 
-A control board for up to 6 NZR communication displays (neopixel/WS28*). This control board was designed to be used with a [Circuit Dojo - nRF9160 Feather](https://github.com/circuitdojo/nrf9160-feather), but can be used with any [Adafruit Feather compatible](https://learn.adafruit.com/adafruit-feather/feather-specification) MCU board.
+A control board for up to 6 NZR (neopixel/WS28*) displays. This control board was designed to be used with a [Circuit Dojo - nRF9160 Feather](https://github.com/circuitdojo/nrf9160-feather), but can be used with any [Adafruit Feather compatible](https://learn.adafruit.com/adafruit-feather/feather-specification) MCU board.
 
 ## Features
 - 6 NZR data and enable signal outputs, multiplexed from a single data signal input; supported by:
 - 6 independent buffers with Schmitt-trigger inputs and 3-state outputs
-- 6 pass through power connectors
+- 6 2.2A, 16V, PTC resettable fused pass through power connectors
 - I2C/SMBus connector; supported by:
 - 2-Bit Bidirectional Voltage-Level Translator for Open-Drain and Push-Pull Applications
 - Adjustable current sink linear LED driver to power a PWM LED backlight
