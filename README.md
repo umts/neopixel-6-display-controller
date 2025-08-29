@@ -1,8 +1,9 @@
 # Neopixel 6 Display Controller
-
 ![Neopixel 6 Display Controller](neopixel-6-display-controller.png)
 
 A control board for up to 6 NZR (neopixel/WS28*) displays. This control board was designed to be used with a [Circuit Dojo - nRF9160 Feather](https://github.com/circuitdojo/nrf9160-feather), but can be used with any [Adafruit Feather compatible](https://learn.adafruit.com/adafruit-feather/feather-specification) MCU board.
+
+Designed to control [these display boards](https://github.com/umts/neopixel-seven-segment-display), but can be used with any NZR compatible pixels.
 
 ## Features
 - 6 NZR data and enable signal outputs, multiplexed from a single data signal input; supported by:
@@ -15,7 +16,6 @@ A control board for up to 6 NZR (neopixel/WS28*) displays. This control board wa
 - Feather socket
 
 ## Feather Connector Pinout
-
 Pin | Function | I/O (Input/Output)
 --- | --- | ---
 5V | Power (Switched) | I/O
@@ -36,5 +36,4 @@ A5 | Display 5 Enable | O
 MOSI | NZR signal (Mux data in) | O
 
 ## Code
-
 Zephyr code for the nRF9160 Feather can be found [here](https://github.com/umts/embedded-departure-board)
